@@ -6,9 +6,9 @@ let answer = 0
 document.getElementById('calculate').addEventListener('click', find)
 
 function find () {
-  a = document.getElementById('baseA').value
+  a = document.getElementById('base-a').value
   a = parseInt(a)
-  b = document.getElementById('baseB').value
+  b = document.getElementById('base-b').value
   b = parseInt(b)
   h = document.getElementById('height').value
   h = parseInt(h)
