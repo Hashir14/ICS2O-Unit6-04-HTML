@@ -2,9 +2,9 @@ let a = 0
 let b = 0
 let h = 0
 let answer = 0
-/* These variables above represent the variables in our equation. */ 
+/* These variables above represent the variables in our equation. */
 document.getElementById('calculate').addEventListener('click', find)
-/* Once the user inserts the values into the input boxes, they will click the Calculate button. Then, the functions for this button will occur below. */ 
+/* Once the user inserts the values into the input boxes, they will click the Calculate button. Then, the functions for this button will occur below. */
 function find () {
   a = document.getElementById('base-a').value
   a = parseInt(a)
